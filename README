@@ -1,0 +1,33 @@
+This is a collection of python scripts, xml files, and figures aimed at 
+analyzing social networks in Shakespearean plays.  The code is quite rough
+at this time, but I wanted to do an initial commit in case it could help out
+someone else.  I have intentions to come back and improve it, but then, I 
+have a lot of intentions.  You can read about the product of my attentions 
+at my blog: http://axiomofcats.com.
+
+---- Prerequisites
+
+pydot      - http://code.google.com/p/pydot/
+networkx   - http://networkx.lanl.gov/
+matplotlib - http://matplotlib.sourceforge.net/
+
+
+---- Usage
+
+The computational analysis done here is discussed in more detail at 
+http://axiomofcats.com/tag/shakespeare/
+
+Open a script.  Run it.
+
+Shakes_social.py was used to generate the network figures
+as in the figures/ directory (I did some further processing on the ones I included to make their width smaller and uniform).
+
+act_structure.py was used to generate the the comedies vs tragedies network
+density plot.  If you run as is you should get the same figure.
+
+Both scripts have options to control elements of the display, but they are 
+poorly documented (read: I was writing stream of conciousness code and not 
+commenting stuff, see above about intentions).  If you're interested in the work
+I encourage you to experiment with some of the parameters and see what happens.
+
+If you have a question about the work, then please email me, drew.matteson@gmailcom. If I see interest it would definitely push me to spend more time on it.
